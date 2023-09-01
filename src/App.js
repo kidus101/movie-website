@@ -30,9 +30,13 @@ function App() {
 
   return (
     <div className="App">
+<<<<<<< HEAD
         <h1> Movies Webiste </h1>
 
         div
+=======
+      
+>>>>>>> 7827cfbf2101bb5ab40d5acb2b01b36469bf741c
     </div>
   );
 }
