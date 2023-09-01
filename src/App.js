@@ -11,7 +11,11 @@ function App() {
     try {
       const { data: results } = await axios.get(`${API_URL}/discover/movie`, {
         params: {
+<<<<<<< HEAD
           api_key: "process.env.REACT_APP_MOVIE_API_KEY" ,
+=======
+          api_key: "500f6453c4d26d54822be3744c4f3c0e" ,
+>>>>>>> 7827cfbf2101bb5ab40d5acb2b01b36469bf741c
         },
       });
       
@@ -30,13 +34,7 @@ function App() {
 
   return (
     <div className="App">
-<<<<<<< HEAD
         <h1> Movies Webiste </h1>
-
-        div
-=======
-      
->>>>>>> 7827cfbf2101bb5ab40d5acb2b01b36469bf741c
     </div>
   );
 }
